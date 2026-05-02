@@ -30,7 +30,6 @@
 #cssmenu {
   font-family: Montserrat, sans-serif;
   background: #93C0C5;
---  background-image: url(../../images/stucco.jpg);
 }
 #cssmenu > ul > li {
   float: left;
