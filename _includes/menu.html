@@ -6,7 +6,7 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="#">Servicios</a>
       <ul>
-        <li><a href="adultos">Adultos</a></li>
+        <li><a href="{{ '/adultos' | relative_url }}">Adultos</a></li>
         <!--li><a href="#">Infancia y adolescencia</a>
           <ul-->
             <!--li style="position:relative; border:1"><a href="infantil.html">Terapia infantil y adolescentes</a></li-->
@@ -23,11 +23,11 @@
             </li>
           </ul>
       </li-->
-        <li><a href="familia">Familia</a></li>
-        <li><a href="perinatal">Perinatal</a>
+        <li><a href="{{ '/familia' | relative_url }}">Familia</a></li>
+        <li><a href="{{ '/perinatal' | relative_url }}">Perinatal</a>
           <ul>
-            <li><a href="perinatal">Psicología perinatal</a></li>
-	    <li><a href="fertilidad">Problemas de fertilidad</a></li>
+            <li><a href="{{ '/perinatal' | relative_url }}">Psicología perinatal</a></li>
+	    <li><a href="{{ '/fertilidad' | relative_url }}">Problemas de fertilidad</a></li>
 	    <li><a href="dinamicagrupal">Asesoramiento a padres. Dinámica grupal</a></li>
             <!--li><a href="preparacionmaternidad.html">Preparación a la maternidad y paternidad</a></li-->
           </ul>
@@ -42,19 +42,19 @@
 	<!--li><a href="recursos.html">Recursos</a></li-->
       </ul>
     </li>
-    <li><a href="perinatal">Psicología perinatal</a>
+    <li><a href="{{ '/perinatal' | relative_url }}">Psicología perinatal</a>
 	<ul>
-		<li><a href="perinatal">Psicología perinatal</a></li>
-		<li><a href="./tocperinatal">Cuando la mamá piensa en hacer daño a su bebé</a></li>
-		<li><a href="fertilidad">Problemas de fertilidad</a></li>
-		<li><a href="dinamicagrupal">Asesoramiento a padres. Dinámica grupal</a></li>
+		<li><a href="{{ '/perinatal' | relative_url }}">Psicología perinatal</a></li>
+		<li><a href="{{ '/tocperinatal' | relative_url }}">Cuando la mamá piensa en hacer daño a su bebé</a></li>
+		<li><a href="{{ '/fertilidad' | relative_url }}">Problemas de fertilidad</a></li>
+		<li><a href="{{ '/dinamicagrupal' | relative_url }}">Asesoramiento a padres. Dinámica grupal</a></li>
 	</ul>
     </li>
     <!--li><a href="pareja.html">Pareja</a></li-->
     <!--li><a href="insomnio.html">Insomnio</a></li-->
-    <li><a href="biografia">Biografía humana</a></li>
-    <li><a href="quien">Quién soy</a></li>
-    <li><a href="contacto">Contacto</a></li>
+    <li><a href="{{ '/biografia' | relative_url }}">Biografía humana</a></li>
+    <li><a href="{{ '/quien' | relative_url }}">Quién soy</a></li>
+    <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
 	</ul>
 </div>
 
@@ -65,7 +65,7 @@
         Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
         Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
         <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
-        <a href="politicacookies" target="_blank" class="info">Más información</a>
+        <a href="{{ '/politicacookies' | relative_url }}" target="_blank" class="info">Más información</a>
     </div>
 </div>
 <!--//FIN BLOQUE COOKIES-->
